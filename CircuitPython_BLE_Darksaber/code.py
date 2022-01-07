@@ -34,8 +34,8 @@ uart_service = UARTService()
 advertisement = ProvideServicesAdvertisement(uart_service)
 
 # CUSTOMISE SENSITIVITY HERE: smaller numbers = more sensitive to motion
-HIT_THRESHOLD = 250
-SWING_THRESHOLD = 150
+HIT_THRESHOLD = 300
+SWING_THRESHOLD = 200
 
 # Set to the length in seconds of the "on.wav" file
 POWER_ON_SOUND_DURATION = 1.7
